@@ -3,7 +3,6 @@ A personal Neovim config based on LazyVim. This repository holds my Neovim confi
 
 A starter template from [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started on your own.
-<h1></h>
 
 ## Requirements
 - Neovim >= 0.11.2
@@ -11,7 +10,6 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 - a [Nerd Font](https://www.nerdfonts.com/)
 - gcc (a C compiler)
 - ripgrep for fast searching
-<h1></h>
 
 
 ## Install / Restore
@@ -25,5 +23,3 @@ nvim
 # then inside Neovim run:
 # :Lazy sync
 ```
-
-<h1></h>
