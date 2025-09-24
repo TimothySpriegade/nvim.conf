@@ -1,5 +1,5 @@
 return {
-  "EdenEast/nightfox.nvim",
+  "vague2k/vague.nvim",
   priority = 1000,
   opts = {
     options = {
@@ -10,5 +10,5 @@ return {
         types = "italic,bold",
       },
     },
-  }
+  },
 }
