@@ -21,8 +21,9 @@ return {
         { name = "github_light_colorblind", colorscheme = "github_light_colorblind" },
         { name = "github_light_tritanopia", colorscheme = "github_light_tritanopia" },
         { name = "vague", colorscheme = "vague" },
-        { name = "vscode-dark", colorscheme = "vscode" },
+        { name = "vscode", colorscheme = "vscode" },
       },
     })
   end,
+  vim.keymap.set("n", "<leader>T", "<cmd>Themery<CR>", {desc = "Toggle Themerey"})
 }
