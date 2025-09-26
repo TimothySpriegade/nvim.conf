@@ -15,6 +15,7 @@ return {
         { "<leader>gh", group = "hunks" },
         { "<leader>q", group = "quit/session" },
         { "<leader>s", group = "search" },
+        { "<leader>h", group = "harpoon" },
         { "<leader>u", group = "ui" },
         { "<leader>x", group = "diagnostics/quickfix" },
         { "[", group = "prev" },
