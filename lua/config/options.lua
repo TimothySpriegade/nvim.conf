@@ -1,1 +1,3 @@
 vim.g.snacks_animate = false
+vim.g.lazyvim_blink_main = false 
+vim.b.completion = false

@@ -1,25 +1,34 @@
-# Personal Neovim (💤LazyVim)
-A personal Neovim config based on LazyVim. This repository holds my Neovim configuration and a few custom plugins and theme tweaks.
+# My Personal Neovim Configuration
 
-A starter template from [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started on your own.
+This is my personal Neovim configuration, built from scratch with modern Lua plugins and managed by `lazy.nvim`.
+
+## Features
+
+*   **Plugin Manager:** Fully managed by the excellent `lazy.nvim`.
+*   **Custom Dashboard:** A personalized startup screen powered by `alpha-nvim`.
+*   **Modern UI:** A sleek and modern UI for commands, messages, and popups using `noice.nvim`.
+*   **Advanced Highlighting:** Fast and accurate syntax highlighting with `nvim-treesitter`.
+*   **Keymap Hints:** An intuitive keymap guide provided by `which-key.nvim`.
+*   **Status & Tabs:** A clean statusline from `lualine.nvim` and file tabs with `bufferline.nvim`.
 
 ## Requirements
-- Neovim >= 0.11.2
-- Git >= 2.19.0
-- a [Nerd Font](https://www.nerdfonts.com/)
-- gcc (a C compiler)
-- ripgrep for fast searching
 
+*   **Neovim >= 0.10.0**
+*   **Git >= 2.19.0**
+*   A C compiler for `nvim-treesitter` (e.g., `gcc`, `clang`, or MSVC).
+*   `ripgrep` for fast searching with Telescope.
+*   A [Nerd Font](https://www.nerdfonts.com/) for icons to render correctly.
 
-## Install / Restore
-If you want to install or restore this config into `~/.config/nvim`:
-```
-# clone into your config directory
-git clone https://github.com/TimothySpriegade/nvim.conf ~/.config/nvim
+## Installation
 
-# start Neovim to let lazy.nvim bootstrap and install plugins
-nvim
-# then inside Neovim run:
-# :Lazy sync
-```
+1.  Clone the repository into your Neovim config directory:
+    ```sh
+    git clone https://github.com/TimothySpriegade/nvim.conf ~/.config/nvim
+    ```
+
+2.  Start Neovim. `lazy.nvim` will automatically bootstrap itself and install all the plugins.
+    ```sh
+    nvim
+    ```
+
+3.  Once the installation is complete, you can run `:Lazy sync` inside Neovim to ensure everything is up-to-date.
