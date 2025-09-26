@@ -17,6 +17,7 @@ This is my personal Neovim configuration, built from scratch with modern Lua plu
 *   **Git >= 2.19.0**
 *   A C compiler for `nvim-treesitter` (e.g., `gcc`, `clang`, or MSVC).
 *   `ripgrep` for fast searching with Telescope.
+*   `tree-sitter-cli` for automatically installing new parsers.
 *   A [Nerd Font](https://www.nerdfonts.com/) for icons to render correctly.
 
 ## Installation
