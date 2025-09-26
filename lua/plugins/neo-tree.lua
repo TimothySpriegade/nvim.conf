@@ -7,6 +7,18 @@ return {
       "MunifTanjim/nui.nvim",
       "nvim-tree/nvim-web-devicons",
     },
-    lazy = false,
-  }
+    cmd = "Neotree",
+    keys = {
+      {
+        "<leader>e",
+        function()
+          require("neo-tree.command").execute({ toggle = true })
+        end,
+        desc = "Toggle File Tree",
+      },
+    },
+    config = function()
+      require("neo-tree").setup({})
+    end,
+  },
 }
