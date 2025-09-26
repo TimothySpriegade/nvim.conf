@@ -12,7 +12,7 @@ return {
     end
   end,
   opts = function()
-    local icons = require("config.icons")
+    local icons = require("extras.icons")
     local utils = require("utils")
 
     vim.o.laststatus = vim.g.lualine_laststatus
