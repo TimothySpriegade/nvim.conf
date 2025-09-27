@@ -1,15 +1,28 @@
 # My Personal Neovim Configuration
 
-This is my personal Neovim configuration, built from scratch with modern Lua plugins and managed by `lazy.nvim`.
+This is my personal Neovim configuration, built from scratch with modern Lua plugins and managed by `lazy.nvim`. It is designed to be a fast, lightweight, and powerful development environment.
 
 ## Features
 
-*   **Plugin Manager:** Fully managed by the excellent `lazy.nvim`.
-*   **Custom Dashboard:** A personalized startup screen powered by `alpha-nvim`.
-*   **Modern UI:** A sleek and modern UI for commands, messages, and popups using `noice.nvim`.
-*   **Advanced Highlighting:** Fast and accurate syntax highlighting with `nvim-treesitter`.
-*   **Keymap Hints:** An intuitive keymap guide provided by `which-key.nvim`.
-*   **Status & Tabs:** A clean statusline from `lualine.nvim` and file tabs with `bufferline.nvim`.
+### Core & User Interface
+*   **Plugin Manager**: Manages all plugins using `lazy.nvim`.
+*   **Command & Message UI**: Replaces the default command line and message display using `noice.nvim`.
+*   **Startup Screen**: A customizable dashboard on startup, powered by `alpha-nvim`.
+*   **Status & Tabs**: Provides a configurable statusline with `lualine.nvim` and a file buffer line with `bufferline.nvim`.
+*   **Keymap Hints**: Displays available keybindings in a pop-up window using `which-key.nvim`.
+*   **Theme Management**: A theme switcher built with `themery.lua`.
+
+### Development & IDE
+*   **LSP & Tooling**: Installs and manages LSPs, linters, and formatters with `mason.nvim` and `nvim-lspconfig`.
+*   **Code Completion**: Provides code autocompletion using `blink.cmp`.
+*   **Code Formatting**: Formats code on save using `conform.nvim`.
+*   **Syntax Highlighting**: Provides syntax highlighting using `nvim-treesitter`.
+*   **File Navigation**:
+    *   Fuzzy finding for files and text with `telescope.nvim`.
+    *   A file tree explorer provided by `neo-tree.nvim`.
+*   **Workflow Tools**:
+    *   Jump between files with `harpoon`.
+    *   Visualize undo history with `undotree`.
 
 ## Requirements
 
