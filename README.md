@@ -13,7 +13,7 @@ This is my personal Neovim configuration, built from scratch with modern Lua plu
 *   **Theme Management**: A theme switcher built with `themery.lua`.
 
 ### Development & IDE
-*   **LSP & Tooling**: Installs and manages LSPs, linters, and formatters with `mason.nvim` and `nvim-lspconfig`.
+*   **LSP & Tooling**: Manages language servers for Neovim's built-in LSP client using `mason.nvim`.
 *   **Code Completion**: Provides code autocompletion using `blink.cmp`.
 *   **Code Formatting**: Formats code on save using `conform.nvim`.
 *   **Syntax Highlighting**: Provides syntax highlighting using `nvim-treesitter`.
