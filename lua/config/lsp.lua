@@ -54,7 +54,7 @@ vim.diagnostic.config({ -- https://neovim.io/doc/user/diagnostic.html
 })
 
 -- Diagnostics on hover
-vim.api.nvim_create_autocmd({ "CursorHold" }, {
+vim.api.nvim_create_autocmd({ "CursorHold", "CursorHoldI" }, {
 	pattern = "*",
 	callback = function()
 		for _, winid in pairs(vim.api.nvim_tabpage_list_wins(0)) do
