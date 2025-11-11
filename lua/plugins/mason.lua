@@ -15,6 +15,7 @@ return {
 					"autotools_ls",
 					"bashls",
 					"docker_language_server",
+					"hls",
 				}
 			})
 		end

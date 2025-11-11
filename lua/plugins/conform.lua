@@ -3,7 +3,8 @@ return {
         config = function()
         require("conform").setup({
             formatter_by_ft = {
-                go = { "goimports" } 
+                go = { "goimports" }, 
+                haskell = { "ormolu "}
             },
             format_on_save = {
             timeout_ms = 500,
@@ -15,7 +16,7 @@ return {
         "LittleEndianRoot/mason-conform",
         config = function ()
             require('mason-conform').setup({
-            ensure_installed = { "goimports" } 
+            ensure_installed = { "goimports", "ormolu" } 
         })
         end
     }
