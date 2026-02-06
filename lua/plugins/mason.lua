@@ -12,6 +12,7 @@ return {
 				ensure_installed = {
 					"gopls",
 					"lua_ls",
+					"rust_analyzer",
 					"autotools_ls",
 					"bashls",
 					"docker_language_server",
